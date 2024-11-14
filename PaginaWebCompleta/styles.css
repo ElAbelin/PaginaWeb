@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Estilos del header */
+header {
+    background-color: #4052B5;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.page-title {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Navegación Principal */
+.top-nav {
+    background-color: #1f1f1f;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaciado entre menú y buscador */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #4052B5;
+}
+
+/* Estilos del buscador */
+.search-container {
+    display: flex;
+    gap: 5px;
+    margin-left: auto; /* Empuja el buscador hacia la derecha */
+    padding-left: 50px; /* Más espacio entre los enlaces y el buscador */
+}
+
+.search-container input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.search-btn {
+    background-color: #22B24C;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-btn:hover {
+    background-color: #1a8e3a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .search-container {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+        padding-left: 0; /* Elimina el padding en móviles */
+    }
+    
+    .search-container input {
+        width: 200px;
+    }
+}
+/* Estilos del buscador */
+.search-container {
+    display: flex;
+    gap: 5px;
+}
+
+.search-container input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 150px; /* Ancho fijo para el input */
+}
+
+.search-btn {
+    background-color: #22B24C;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-btn:hover {
+    background-color: #1a8e3a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .search-container {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .search-container input {
+        width: 200px;
+    }
+}
+/* Navegación Principal */
+.top-nav {
+    background-color: #4052B5;
+    padding: 8px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-left: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-links a.active {
+    background-color: #22B24C;
+    border-radius: 3px;
+}
+
+.nav-links a.discord {
+    color: #22B24C;
+}
+
+/* Barras secundarias */
+.secondary-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.black-bar {
+    height: 4px;
+    background-color: #000000;
+}
+
+.orange-bar {
+    height: 4px;
+    background-color: #FF4400;
+}
+
+/* Sección Sobre Nosotros */
+.about-section {
+    background-color: #FF7F50;
+    min-height: calc(100vh - 80px);
+    padding: 40px 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 10px;
+    }
+    
+    .about-content {
+        padding: 0 15px;
+    }
+}
+.top-nav{
+    background-color: black;
+}
