@@ -178,7 +178,7 @@ header {
 }
 
 .nav-links a.active {
-    background-color: #22B24C;
+    color: #22B24C;
     border-radius: 3px;
 }
 
@@ -242,4 +242,202 @@ p {
 }
 .top-nav{
     background-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #4052B5;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.page-title {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Navegación */
+.top-nav {
+    background-color: #1f1f1f;
+    padding: 8px 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #4052B5;
+}
+
+.nav-links a.active {
+    color: #22B24C;
+}
+
+/* Buscador */
+.search-container {
+    display: flex;
+    gap: 5px;
+    margin-left: auto;
+    padding-left: 50px;
+}
+
+.search-container input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.search-btn {
+    background-color: #22B24C;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Contenedor principal de películas */
+.movies-container {
+    background-color: #FF7F50;
+    min-height: calc(100vh - 80px);
+    padding: 40px 20px;
+}
+
+/* Película destacada */
+
+.carousel-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.carousel-item img {
+    width: 15%;
+    height: 45%;
+}
+.featured-movie {
+    max-width: 300px;
+    margin: 0 auto 40px;
+}
+
+.featured-movie .movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid de películas */
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.movie-item .movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movie-item{
+    padding-left: 3%;
+    margin-right: 5%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .search-container {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    
+    .movies-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .movies-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.carousel-control-prev{
+        width: 80%;
+}
+.carousel-control-next{
+    width: 80%;
+}
+.peliculas-espacio{
+    margin-top: 5%;
+}
+.espacio{
+    background-color: #D9D9D9;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.btn-pelicula{
+    display: flex;
+    margin: 10px auto;
+    background-color: #4052B5;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+.btn-pelicula:hover{
+    background-color: green;
+}
+
+a{
+    text-decoration: none;
 }
