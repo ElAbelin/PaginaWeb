@@ -441,3 +441,157 @@ header {
 a{
     text-decoration: none;
 }
+
+
+.news-section {
+    background-color: #e8883b;
+    padding: 20px 0;
+}
+
+.section-title {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-title h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.news-item {
+    background-color: #e8883b;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.news-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.news-content {
+    padding: 0 20px;
+}
+
+.news-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.ver-mas-btn {
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.ver-mas-btn:hover {
+    background-color: #303f9f;
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .news-content {
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .news-image {
+        margin-bottom: 15px;
+    }
+
+    .news-content h3 {
+        font-size: 1.1rem;
+    }
+}
+/* Navbar Styles */
+.navbar {
+    background-color: #3949ab !important;
+}
+
+/* Category Section Styles */
+.category-section {
+    background-color: #000;
+    color: white;
+}
+
+/* Content Section Styles */
+.content-section {
+    background-color: #e8883b;
+    min-height: 400px;
+    padding: 20px 0;
+}
+
+/* Category Button Styles */
+.category-button {
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Carousel Styles */
+.carousel-item img {
+    max-height: 400px;
+    width: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .category-button {
+        margin: 5px;
+        padding: 6px 16px;
+    }
+    
+    .carousel-item img {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+    
+    h4 {
+        font-size: 1.2rem;
+    }
+}
+
+.categorias-noticia{
+    background-color: #e8883b;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.seccion-categorias-noticias{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+.cuerpo-noticia{
+    background-color: #e8883b
+}
+.boton-noticia{
+    margin-left:-10%;
+    margin-right: -10%;
+}
