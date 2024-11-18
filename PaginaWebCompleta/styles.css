@@ -16,6 +16,8 @@ header {
     font-size: 20px;
     margin: 0;
     font-weight: normal;
+    display:block;
+    margin-left: 10rem;
 }
 
 /* Navegación Principal */
@@ -408,10 +410,10 @@ header {
 }
 
 .carousel-control-prev{
-        width: 80%;
+    width: 2%;
 }
 .carousel-control-next{
-    width: 80%;
+width: 2%;
 }
 .peliculas-espacio{
     margin-top: 5%;
@@ -444,7 +446,7 @@ a{
 
 
 .news-section {
-    background-color: #e8883b;
+    background-color: #FF7F50;
     padding: 20px 0;
 }
 
@@ -462,7 +464,7 @@ a{
 }
 
 .news-item {
-    background-color: #e8883b;
+    background-color: #FF7F50;
     padding: 20px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -577,7 +579,7 @@ a{
 }
 
 .categorias-noticia{
-    background-color: #e8883b;
+    background-color: #FF7F50;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -589,9 +591,92 @@ a{
     padding: 5px 0;
 }
 .cuerpo-noticia{
-    background-color: #e8883b
+    background-color:#FF7F50 ;
 }
 .boton-noticia{
-    margin-left:-10%;
-    margin-right: -10%;
+    margin-left:30%;
+    margin-right: 30%;
+}
+.CuerpoRegistro {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7F50;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    background-color: #FF7F50;
+}
+
+h1 {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+
+.boton-anime{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.boton-juego{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.boton-pelicula{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.boton-serie{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    padding-left: 50%;
+}
+.inicio-sesion-btn{
+    background-color: #22B24C;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: auto;
+}
+.texto-noticia{
+    margin-left: auto;
+    margin-right: auto;
 }
