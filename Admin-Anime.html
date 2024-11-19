@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista de Administrador</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body class="cuerpo-admin">
+    <header>
+        <h1>Vista de Administrador</h1>
+    </header>
+    <div class="sub-header">
+        <h2>Anime</h2>
+        <div class="user-info">
+            <img src="perfil1.webp" alt="smile icon" class="smile-icon">
+            <span>Fabian XR</span>
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <a href="#">Inicio</a>
+        <a href="#">Juegos</a>
+        <a href="#">Películas</a>
+        <a href="#">Series</a>
+        <a href="#" class="active">Anime</a>
+        <a href="#">Sobre Nosotros</a>
+        <div class="search-container">
+            <button class="search-btn">Buscar</button>
+            <input type="text" class="search-input">
+        </div>
+    </nav>
+
+    <div class="container">
+        <aside class="sidebar">
+            <button class="sidebar-btn">Agregar Categoría</button>
+            <button class="sidebar-btn">Películas</button>
+            <button class="sidebar-btn">Videojuegos</button>
+            <button class="sidebar-btn">Series</button>
+            <button class="sidebar-btn active">Animes</button>
+            <button class="sidebar-btn">Noticias</button>
+            <button class="sidebar-btn">Sobre Nosotros</button>
+            <button class="sidebar-btn">Inicio</button>
+        </aside>
+
+        <main class="content">
+            <button class="exit-btn">Salir</button>
+            
+            <!-- Grid de Animes -->
+            <h2 class="section-title">Animes</h2>
+            <div class="grid-container">
+                <div class="grid-item add-new">
+                    <div class="plus-icon">+</div>
+                </div>
+                <div class="grid-item">
+                    <img src="mha.jpg" alt="My Hero Academia">
+                    <button class="delete-btn">Borrar</button>
+                </div>
+                <div class="grid-item">
+                    <img src="demon.jpg" alt="Demon Slayer">
+                    <button class="delete-btn">Borrar</button>
+                </div>
+                <div class="grid-item">
+                    <img src="bleach.jpg" alt="Bleach">
+                    <button class="delete-btn">Borrar</button>
+                </div>
+                <div class="grid-item">
+                    <img src="dragon.jpg" alt="Dragon Ball">
+                    <button class="delete-btn">Borrar</button>
+                </div>
+                <div class="grid-item">
+                    <img src="naruto.jpg" alt="Naruto">
+                    <button class="delete-btn">Borrar</button>
+                </div>
+            </div>
+
+            <!-- Grid de Nuevos Lanzamientos -->
+            <h2 class="section-title">Nuevos Lanzamientos</h2>
+            <div class="grid-container">
+                <div class="grid-item add-new">
+                    <div class="plus-icon">+</div>
+                </div>
+                <div class="grid-item">
+                    <img src="mha.jpg" alt="My Hero Academia">
+                    <button class="view-more">Ver más</button>
+                </div>
+                <div class="grid-item">
+                    <img src="demon.jpg" alt="Demon Slayer">
+                    <button class="view-more">Ver más</button>
+                </div>
+                <div class="grid-item">
+                    <img src="bleach.jpg" alt="Bleach">
+                    <button class="view-more">Ver más</button>
+                </div>
+                <div class="grid-item">
+                    <img src="dragon.jpg" alt="Dragon Ball">
+                    <button class="view-more">Ver más</button>
+                </div>
+                <div class="grid-item">
+                    <img src="naruto.jpg" alt="Naruto">
+                    <button class="view-more">Ver más</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
