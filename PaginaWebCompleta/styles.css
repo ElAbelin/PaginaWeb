@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@ header {
     text-align: center;
 }
 
-.page-title {
+.pagina-titulo {
     color: white;
     font-size: 20px;
     margin: 0;
@@ -53,14 +54,14 @@ header {
 }
 
 /* Estilos del buscador */
-.search-container {
+.contenedor-busqueda {
     display: flex;
     gap: 5px;
     margin-left: auto; /* Empuja el buscador hacia la derecha */
     padding-left: 50px; /* Más espacio entre los enlaces y el buscador */
 }
 
-.search-container input {
+.contenedor-busqueda input {
     padding: 5px 10px;
     border: none;
     border-radius: 3px;
@@ -94,24 +95,24 @@ header {
         justify-content: center;
     }
     
-    .search-container {
+    .contenedor-busqueda {
         width: 100%;
         justify-content: center;
         margin-top: 10px;
         padding-left: 0; /* Elimina el padding en móviles */
     }
     
-    .search-container input {
+    .contenedor-busqueda input {
         width: 200px;
     }
 }
 /* Estilos del buscador */
-.search-container {
+.contenedor-busqueda {
     display: flex;
     gap: 5px;
 }
 
-.search-container input {
+.contenedor-busqueda input {
     padding: 5px 10px;
     border: none;
     border-radius: 3px;
@@ -145,13 +146,13 @@ header {
         justify-content: center;
     }
     
-    .search-container {
+    .contenedor-busqueda {
         width: 100%;
         justify-content: center;
         margin-top: 10px;
     }
     
-    .search-container input {
+    .contenedor-busqueda input {
         width: 200px;
     }
 }
@@ -259,7 +260,7 @@ header {
     text-align: center;
 }
 
-.page-title {
+.titulo-pagina {
     color: white;
     font-size: 20px;
     margin: 0;
@@ -302,14 +303,14 @@ header {
 }
 
 /* Buscador */
-.search-container {
+.contenedor-busqueda {
     display: flex;
     gap: 5px;
     margin-left: auto;
     padding-left: 50px;
 }
 
-.search-container input {
+.contenedor-busqueda input {
     padding: 5px 10px;
     border: none;
     border-radius: 3px;
@@ -328,7 +329,7 @@ header {
 }
 
 /* Contenedor principal de películas */
-.movies-container {
+.image-container {
     background-color: #FF7F50;
     min-height: calc(100vh - 80px);
     padding: 40px 20px;
@@ -349,7 +350,7 @@ header {
     margin: 0 auto 40px;
 }
 
-.featured-movie .movie-poster {
+.featured-movie .poster {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -357,7 +358,7 @@ header {
 }
 
 /* Grid de películas */
-.movies-grid {
+.image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -365,14 +366,14 @@ header {
     margin: 0 auto;
 }
 
-.movie-item .movie-poster {
+.image-item .poster {
     width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.movie-item{
+.image-item{
     padding-left: 3%;
     margin-right: 5%;
 }
@@ -389,14 +390,14 @@ header {
         justify-content: center;
     }
     
-    .search-container {
+    .contenedor-busqueda {
         width: 100%;
         justify-content: center;
         margin-top: 10px;
         padding-left: 0;
     }
     
-    .movies-grid {
+    .image-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
         padding: 0 10px;
@@ -404,7 +405,7 @@ header {
 }
 
 @media (max-width: 480px) {
-    .movies-grid {
+    .image-grid {
         grid-template-columns: 1fr;
     }
 }
